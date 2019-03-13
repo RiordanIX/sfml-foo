@@ -3,6 +3,7 @@ body {
 	font-family: monospace;
 	color: #DDDDDD;
 	background-color: #343434;
+	text-align: center;
 }
 
 h1 {
@@ -40,9 +41,15 @@ div.navigate {
 	text-align: center;
 }
 
-a.go{
+a.go {
 	color: #AAAAAA;
 	padding: 10px 10px 10px 10px;
 	text-align: center;
+}
+
+img.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
