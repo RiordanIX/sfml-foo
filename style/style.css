@@ -1,0 +1,44 @@
+/* Generic parts */
+body {
+	font-family: monospace;
+	color: #DDDDDD;
+	background-color: #343434;
+}
+
+h1 {
+	width: 100%;
+	color: #F0F0F0;
+	text-align: center;
+}
+
+h2 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h3 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/* Div and a classes */
+div.header {
+	color: #DDDDDD;
+}
+
+div.code {
+	width: 80%;
+	margin: 10px auto 10px auto;
+	background-color: #000044;
+	border: thin solid #222266;
+	color: #DDDDFF;
+	white-space: pre;
+	text-align: left;
+}
+
+a.go {
+	color: #AAAAAA;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
