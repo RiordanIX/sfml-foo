@@ -32,9 +32,12 @@ div.code {
 	margin: 10px auto 10px auto;
 	background-color: #202020;
 	border: thin solid #000000;
-	color: #DDDDFF;
+	color: #BBBBBB;
 	white-space: pre;
 	text-align: left;
+}
+div span {
+	color: #FFFFFF;
 }
 
 p.words {
