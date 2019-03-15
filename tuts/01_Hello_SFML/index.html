@@ -19,20 +19,19 @@
 		</div><!-- navigate -->
 	</div><!-- header -->
 
-	<img src="../../images/sfml_icon.png" alt="SFML Logo" class="image">
 
-	<p class="words">
+	<div class="words">
+	<h1>Creating a Window</h1>
+	<img src="../../images/sfml_icon.png" alt="SFML Logo" class="image">
 	This tutorial assumes you already have SFML setup.  If that is not the case,
 	a tutorial will be written for that eventually, but for right now follow <a
 	href="https://www.sfml-dev.org/tutorials/2.5/start-linux.php">this link</a>
-	to get SFML installed.
-	</p>
+	to get SFML installed.<br><br>
 
-	<p class="words">
 	The first thing we want is a window.  SFML includes several different
 	modules, but for right now we just care about the Window one.
-	</p>
-	<div class="code">// We are using SFML
+	</div>
+	<div class="code"><span class="#">// We are using SFML
 #include &ltSFML/Window.hpp&gt
 
 const int W_WIDTH = 800;
@@ -41,9 +40,9 @@ const int W_HEIGHT = 600;
 int main(){
 	sf::Window window(sf::VideoMode(W_WIDTH, W_HEIGHT), "SFML Now!");
 
-}</div> <!-- code -->
+}</span></div> <!-- code -->
 
-	<p class="words">
+	<div class="words">
 	The first argument (videoMode) declares the size of the window (not including
 	the boarders and title bar), and the second argument is the title of the
 	window.<br><br>
@@ -51,7 +50,7 @@ int main(){
 	Right now though, we have a problem: a window shows up, but it immediately
 	closes.  We need a way to keep the window open until we close it ourselves.
 	Fortunately, we can just poll for events that are also included in SFML.
-	</p>
+	</div>
 
 	<div class="code">// We are using SFML
 #include &ltSFML/Window.hpp&gt
@@ -74,11 +73,11 @@ int main( ) {
 	}</span> <!-- newcode -->
 }</div> <!-- code -->
 
-	<p class="words">
+	<div class="words">
 	This code opens the window and keeps it open now, only closing when we tell
 	it to close.  Now we can actually drag the window around and begin to imagine
-	to do things with it.<br><br>
-	</p>
+	doing things with it.<br><br>
+	</div>
 
 	<div class="footer">
 		<div class="navigate">
